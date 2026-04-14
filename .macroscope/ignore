@@ -1,0 +1,9 @@
+# Macroscope ignore patterns
+pnpm-lock.yaml
+.planning/**
+.agent/**
+.agents/**
+.claude/**
+build_error.txt
+skills-lock.json
+scripts/**
