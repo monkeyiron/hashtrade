@@ -1,11 +1,19 @@
 {
   "$schema": "https://v2-9-6.turborepo.dev/schema.json",
   "ui": "tui",
+  "globalEnv": [
+    "CONVEX_DEPLOYMENT",
+    "CONVEX_DEPLOY_KEY",
+    "CONVEX_URL",
+    "CONVEX_SITE_URL",
+    "OPENROUTER_API_KEY"
+  ],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/**"],
+      "env": ["VITE_CONVEX_URL"]
     },
     "lint": {
       "dependsOn": ["^lint"]

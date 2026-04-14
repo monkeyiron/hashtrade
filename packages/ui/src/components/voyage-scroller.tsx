@@ -4,7 +4,7 @@ import { PageLayout } from "./page-layout";
 import { Button } from "./button";
 import { Globe, ArrowRight, Users, Sparkles, Target, Settings, GitBranch, Cpu } from "lucide-react";
 import Lottie from "lottie-react";
-import { useEffect, useState } from "react";
+
 import { Reveal } from "./reveal";
 import { Marquee } from "./marquee";
 import TextMatrixRain from "./text-matrix-rain";
