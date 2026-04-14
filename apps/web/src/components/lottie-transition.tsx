@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Lottie from "lottie-react";
-import transitionLottie from "../../public/lottie/transition.json";
+import transitionLottie from "../lottie/transition.json";
 
 export function LottieTransition() {
   const location = useLocation();
