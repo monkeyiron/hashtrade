@@ -21,7 +21,11 @@ const HeroLottie = () => {
   return <Lottie animationData={animationData} loop={true} className="w-full max-w-md mx-auto opacity-90" aria-hidden="true" />;
 };
 
-export const VoyageScroller = () => {
+export const VoyageScroller = ({
+  LinkComponent = "a",
+}: {
+  LinkComponent?: React.ElementType<any>;
+} = {}) => {
   return (
     <PageLayout>
       <main className="w-full min-h-screen bg-background">
@@ -65,9 +69,9 @@ export const VoyageScroller = () => {
             
             <div className="flex flex-wrap items-center gap-5 pt-2">
               <Button asChild size="lg" variant="outline" className="h-12 px-6 font-medium bg-transparent hover:bg-surface-2 whitespace-nowrap">
-                <a href="/contact">
+                <LinkComponent href="/contact">
                   Start a conversation <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </LinkComponent>
               </Button>
               <span className="text-[12px] text-muted-foreground whitespace-nowrap hidden sm:inline-block">Self-funded · No hype</span>
             </div>
@@ -292,9 +296,9 @@ export const VoyageScroller = () => {
                 </div>
                 <div>
                   <Button asChild className="h-14 px-8 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-[13.5px] tracking-[0.02em] whitespace-nowrap">
-                    <a href="/contact">
+                    <LinkComponent href="/contact">
                       Get in touch <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
+                    </LinkComponent>
                   </Button>
                 </div>
               </div>

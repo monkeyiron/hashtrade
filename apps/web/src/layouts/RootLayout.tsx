@@ -1,11 +1,9 @@
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { Navbar } from "@workspace/ui/components/navbar";
 import { Footer } from "@workspace/ui/components/footer";
 import { ChatWidget } from "@workspace/ui/components/chat-widget";
 
-const RouterLink = ({ href, children, ...props }: any) => {
-  return <Link to={href} {...props}>{children}</Link>;
-};
+import { RouterLink } from "../components/router-link";
 
 export function RootLayout() {
   const location = useLocation();

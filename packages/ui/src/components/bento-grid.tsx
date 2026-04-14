@@ -38,6 +38,7 @@ const BentoCard = ({
   description: string;
   href: string;
   cta: string;
+  LinkComponent?: React.ElementType<any>;
 }) => (
   <div
     key={name}
@@ -68,10 +69,10 @@ const BentoCard = ({
         asChild
         className="pointer-events-auto rounded-none border-primary text-primary hover:bg-primary/20 bg-background"
       >
-        <a href={href}>
+        <LinkComponent href={href}>
           {cta}
           <ArrowRightIcon className="ml-2 h-4 w-4" />
-        </a>
+        </LinkComponent>
       </Button>
     </div>
     <div className="pointer-events-none absolute inset-0 transition-all duration-300 group-hover:bg-background/20 z-0" />
