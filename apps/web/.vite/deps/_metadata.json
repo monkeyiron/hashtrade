@@ -1,0 +1,142 @@
+{
+  "hash": "32cbc8aa",
+  "configHash": "6aa48e58",
+  "lockfileHash": "3094f56a",
+  "browserHash": "b5b93767",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../../../node_modules/.pnpm/react@19.2.4/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "cfc89f47",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../../../node_modules/.pnpm/react@19.2.4/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "fe85af8b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../../node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "9c4987ff",
+      "needsInterop": true
+    },
+    "convex/react": {
+      "src": "../../../../node_modules/.pnpm/convex@1.35.1_react@19.2.4/node_modules/convex/dist/esm/react/index.js",
+      "file": "convex_react.js",
+      "fileHash": "29e64de9",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../../../node_modules/.pnpm/react-router-dom@7.14.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "f04346e1",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../../../node_modules/.pnpm/framer-motion@12.38.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "40e46892",
+      "needsInterop": false
+    },
+    "lottie-react": {
+      "src": "../../../../node_modules/.pnpm/lottie-react@2.4.1_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/lottie-react/build/index.es.js",
+      "file": "lottie-react.js",
+      "fileHash": "34cfd581",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../../../node_modules/.pnpm/lucide-react@1.8.0_react@19.2.4/node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "eb1223e8",
+      "needsInterop": false
+    },
+    "convex/server": {
+      "src": "../../../../node_modules/.pnpm/convex@1.35.1_react@19.2.4/node_modules/convex/dist/esm/server/index.js",
+      "file": "convex_server.js",
+      "fileHash": "35b67110",
+      "needsInterop": false
+    },
+    "class-variance-authority": {
+      "src": "../../../../node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/class-variance-authority/dist/index.mjs",
+      "file": "class-variance-authority.js",
+      "fileHash": "dcca2b73",
+      "needsInterop": false
+    },
+    "radix-ui": {
+      "src": "../../../../node_modules/.pnpm/radix-ui@1.4.3_@types+react-dom@19.2.3_@types+react@19.2.14__@types+react@19.2.14_react-dom@1_idvtltihqgox4p76vgvvnsego4/node_modules/radix-ui/dist/index.mjs",
+      "file": "radix-ui.js",
+      "fileHash": "0078f6ef",
+      "needsInterop": false
+    },
+    "@gsap/react": {
+      "src": "../../../../node_modules/.pnpm/@gsap+react@2.1.2_gsap@3.14.2_react@19.2.4/node_modules/@gsap/react/src/index.js",
+      "file": "@gsap_react.js",
+      "fileHash": "96b1b529",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../../../node_modules/.pnpm/gsap@3.14.2/node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "964ef7e0",
+      "needsInterop": false
+    },
+    "gsap/ScrollTrigger": {
+      "src": "../../../../node_modules/.pnpm/gsap@3.14.2/node_modules/gsap/ScrollTrigger.js",
+      "file": "gsap_ScrollTrigger.js",
+      "fileHash": "d00e4f1e",
+      "needsInterop": false
+    },
+    "@convex-dev/agent/react": {
+      "src": "../../../../node_modules/.pnpm/@convex-dev+agent@0.6.1_@ai-sdk+provider-utils@4.0.23_zod@3.25.76__ai@6.0.158_zod@3.25.76__co_h5ao2y5iiy37souq4kjcikonyq/node_modules/@convex-dev/agent/dist/react/index.js",
+      "file": "@convex-dev_agent_react.js",
+      "fileHash": "31d4e2df",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../../../node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "2b08f061",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../../../node_modules/.pnpm/tailwind-merge@3.5.0/node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "8e57d104",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "esm-BAVYPKYB": {
+      "file": "esm-BAVYPKYB.js"
+    },
+    "chunk-VZZPYAKC": {
+      "file": "chunk-VZZPYAKC.js"
+    },
+    "chunk-T7JNZAMP": {
+      "file": "chunk-T7JNZAMP.js"
+    },
+    "chunk-X2FZY4VP": {
+      "file": "chunk-X2FZY4VP.js"
+    },
+    "chunk-TOPSXAE3": {
+      "file": "chunk-TOPSXAE3.js"
+    },
+    "chunk-G3NSV6JZ": {
+      "file": "chunk-G3NSV6JZ.js"
+    },
+    "chunk-HYXXBANK": {
+      "file": "chunk-HYXXBANK.js"
+    },
+    "chunk-DRHE6H53": {
+      "file": "chunk-DRHE6H53.js"
+    },
+    "chunk-EVNWH6M7": {
+      "file": "chunk-EVNWH6M7.js"
+    },
+    "chunk-PR4QN5HX": {
+      "file": "chunk-PR4QN5HX.js"
+    }
+  }
+}

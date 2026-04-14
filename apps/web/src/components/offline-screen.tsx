@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Lottie from "lottie-react";
-import noInternetLottie from "../../public/lottie/no-internet.json";
+import noInternetLottie from "../lottie/no-internet.json";
 
 export function OfflineScreen() {
   const [isOffline, setIsOffline] = useState(typeof navigator !== 'undefined' ? !navigator.onLine : false);

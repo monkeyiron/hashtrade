@@ -8,17 +8,10 @@ import { useEffect, useState } from "react";
 import { Reveal } from "./reveal";
 import { Marquee } from "./marquee";
 import TextMatrixRain from "./text-matrix-rain";
+import heroAnimationData from "../lottie/hero.json";
 
 const HeroLottie = () => {
-  const [animationData, setAnimationData] = useState<any>(null);
-  useEffect(() => {
-    fetch('/lottie/hero.json')
-      .then(res => res.json())
-      .then(setAnimationData)
-      .catch(console.error);
-  }, []);
-  if (!animationData) return <div className="aspect-square w-full max-w-md mx-auto bg-surface-1 animate-pulse" />;
-  return <Lottie animationData={animationData} loop={true} className="w-full max-w-md mx-auto opacity-90" aria-hidden="true" />;
+  return <Lottie animationData={heroAnimationData} loop={true} className="w-full max-w-md mx-auto opacity-90" aria-hidden="true" />;
 };
 
 export const VoyageScroller = ({
