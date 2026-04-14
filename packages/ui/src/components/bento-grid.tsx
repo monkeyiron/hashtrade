@@ -30,6 +30,7 @@ const BentoCard = ({
   description,
   href,
   cta,
+  LinkComponent = "a",
 }: {
   name: string;
   className: string;
